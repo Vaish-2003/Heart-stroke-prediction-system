@@ -1,0 +1,22 @@
+The dataset used to predict stroke is a dataset from Kaggle. This dataset has been used to predict stroke with 566 different model algorithms. This dataset has:
+
+5110 samples or rows
+11 features or columns
+1 target column (stroke).
+
+Features in Datasets:
+
+id : a unique identifier that distinguishes each data [int]
+Gender: Patient's gender ('Male', 'Female', and 'Other') [str]
+age : Age of the patient [int]
+Hypertension: Hypertension or high blood pressure is a disease that puts a person at risk for stroke. 0 if the patient does not have hypertension, 1 if the patient has hypertension. [int]
+heart_disease: Heart disease is a disease that puts a person at risk for stroke. 0 if the patient does not have heart disease, 1 if the patient has heart disease. [int]
+ever_married : Describes whether the patient is married or not ('Yes' or 'No') [str]
+work_type : Type of employment or status ('children' for children, 'Govt_job' for civil servants, 'Never_worked' for those who have never worked, 'Private' or 'Self-employed' for entrepreneurs or freelancers) [str]
+Residence_type : Condition of residence ('Rural' for rural areas and 'Urban' for urban areas) [str]
+avg_glucose_level : Average amount of glucose (sugar) in the blood [float]
+bmi : Body Mass Index to measure the stability of body weight with height. [float]
+smoking_status : Description of smoking ('formerly smoked' for those who have smoked, 'never smoked' for those who have never smoked, 'smokes' for those who smoke, and 'unknown' for those whose smoking status is unknown) [str]
+Target: stroke : Prediction target if the patient has a stroke then 1, otherwise 0 [int]
+
+In the project, it can be seen from the number of targets, the number of patients who had a stroke was very small compared to patients who did not have a stroke. And with the heatmap it can be seen that gender does not affect a person can have a stroke or not.
